@@ -1,0 +1,104 @@
+:root {
+  --color-primery-light: #2b7fff;
+  --color-primery-brand: #ffffff;
+  --color-primery-dark: #011c44;
+  --color-secondary: #a8c6f561;
+  --color-secondary-link: #000000;
+  --color-secondary-average: #4a4a4a;
+}
+/* base */
+ul {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+h1,
+h2 {
+  font-family: "Play", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-primery-dark);
+}
+/* HEDER */
+.link {
+  text-decoration: none;
+  color: var(--color-secondary-link);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.15;
+  letter-spacing: 0px;
+}
+.link:hover {
+  color: var(--color-primery-light);
+  font-weight: 700;
+}
+/* HOME PAGE */
+.button {
+  background-color: var(--color-primery-light);
+  border-radius: 32px;
+  border: 2px solid var(--color-primery-light);
+  color: var(--color-primery-brand);
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+.button:hover {
+  background-color: transparent;
+  border: 2px solid var(--color-primery-light);
+  color: var(--color-primery-dark);
+}
+h1 {
+  font-weight: 700;
+  font-size: 140px;
+  color: var(--color-primery-light);
+  text-transform: capitalize;
+  line-height: 0.8;
+  margin-bottom: 0;
+}
+.signature-button {
+  color: var(--color-secondary-average);
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.accent {
+  color: var(--color-primery-light);
+}
+.home-visyal {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.15;
+}
+/* CHANGES SELECTION */
+.title {
+  font-size: 64px;
+  line-height: 1.15;
+  font-weight: 700;
+}
+.changes .accent {
+  text-transform: capitalize;
+}
+.changes-text {
+  font-size: 22px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+.changes-text .accent {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--color-primery-dark);
+}
+/* <!-- ADVANTAGE SELECTION  --> */
+
+/* PROCEDURE SELECTION */
